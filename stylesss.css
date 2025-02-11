@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light grey background for the whole page */
+    color: #333;
+}
+
+.header {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Light grey */
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#home {
+    background: linear-gradient(to right, #FFEBEE, #E1F5FE); /* Pink to light blue gradient */
+}
+
+section#about {
+    background: linear-gradient(to right, #E3F2FD, #FFECB3); /* Light blue to light yellow gradient */
+}
+
+section#skills {
+    background: linear-gradient(to right, #E8F5E9, #FFCDD2); /* Light green to light pink gradient */
+}
+
+section#portfolio {
+    background: linear-gradient(to right, #FFF3E0, #D1C4E9); /* Light orange to light purple gradient */
+}
+
+section#contact {
+    background: linear-gradient(to right, #FCE4EC, #F3E5F5); /* Light pink to light purple gradient */
+}
+
+h1, h2 {
+    color: #4CAF50; /* Green headings */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
